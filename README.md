@@ -4,6 +4,7 @@ In BGP-Inter-Scenario 2, we implement a routing setup where routers from differe
 
 - **AS-Path Prepending** influences path selection by making certain routes less preferred.
 - **Prefix Filtering** ensures routers only advertise their own prefixes (such as /23 and /24) and do not act as transit routers for external traffic.
+
 This scenario uses the following routers:
 
 - **R1 (AS100)** : Connected to R2 and R3, with specific policies applied for BGP route exports.
